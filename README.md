@@ -7,7 +7,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Run `npm install`
 Generate the environment files files by running:
 `ng generate environments`
-Add your [apiKey] in environment.development.ts and environment.ts
+Add your `apiKey` from [GIPHY](https://developers.giphy.com/dashboard/) in environment.development.ts and environment.ts
 export const environment = {
   apiKey: 'YOUR-KEY-HERE'
 };
