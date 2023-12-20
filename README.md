@@ -2,6 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.5.
 
+## Install and generate environment files
+
+Run `npm install`
+Generate the environment files files by running:
+`ng generate environments`
+Add your [apiKey] in environment.development.ts and environment.ts
+export const environment = {
+  apiKey: 'YOUR-KEY-HERE'
+};
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
